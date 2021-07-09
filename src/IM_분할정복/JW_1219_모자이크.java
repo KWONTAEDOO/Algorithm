@@ -8,7 +8,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class JW_1219_모자이크 {
-
+	
 	public static void main(String[] args) throws IOException {
 		System.setIn(new FileInputStream("분할정복/모자이크.txt"));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -22,7 +22,6 @@ public class JW_1219_모자이크 {
 		int r = Integer.parseInt(st.nextToken());
 		int c = Integer.parseInt(st.nextToken());
 		
-		int[][] map = new int[r+1][c+1];
 		
 		
 		
