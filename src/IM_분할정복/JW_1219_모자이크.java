@@ -74,7 +74,7 @@ public class JW_1219_모자이크 {
 				int cnt = n-1; //색종이의 수 카운트
 				square = max_r + idx; // 사각형 크기 설정
 				if(square>max_c) break;
-				//System.out.println(square+" "+idx);
+				
 				int current_c = list[0] + square; //
 				
 				for (int i = 1; i < list.length; i++) {
