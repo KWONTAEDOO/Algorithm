@@ -63,12 +63,12 @@ public class JW_1219_모자이크 {
 		//System.out.println(max_c);
 		boolean flag = false;
 		Arrays.sort(list);
-		int idx = 0;
-		int square;
 		if(list.length==1) {
 			sb.append(1);
 			flag = true;
 		}
+		int square;
+		int idx = 0;
 		if(!flag) {
 			while(true) {
 				int cnt = n-1; //색종이의 수 카운트
