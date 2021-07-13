@@ -56,13 +56,14 @@ public class JW_3519_합병정렬 {
 				sel[k] = arr[j++];
 			}
 		}
+		StringBuilder sb = new StringBuilder();
 		for (i = low; i <= high; i++) {
 			arr[i] = sel[i];
 		}
 		for (int j2 = 0; j2 < arr.length; j2++) {
-			System.out.print(arr[j2]+" ");
+			sb.append(arr[j2]+" ");
 		}
-		System.out.println();
+		System.out.println(sb);
 	}
 }
 
