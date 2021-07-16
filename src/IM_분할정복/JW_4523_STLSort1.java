@@ -24,17 +24,18 @@ public class JW_4523_STLSort1 {
 			arr[i] = Integer.parseInt(st.nextToken());
 			origin[i] = arr[i];
 		}
+		
 		st = new StringTokenizer(br.readLine());
 		int s = Integer.parseInt(st.nextToken());
 		int e = Integer.parseInt(st.nextToken());
 		
 		int[] arr2 = new int[e-s+1];
 		int idx = 0;
-		for (int i = s; i < e; i++) {
+		for (int i = s; i < e+1; i++) {
 			arr2[idx] = arr[i];
 			idx++;
 		}
-		
+		//System.out.println(Arrays.toString(arr2));
 		
 		StringBuilder sb1 = new StringBuilder();
 		Arrays.sort(origin);
