@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.StringTokenizer;
 
 public class JW_4642_STLSort3_문자열점수동시비교 {
-	
+	//
 	static class Student implements Comparable<Student>{
 		String name;
 		int score;
